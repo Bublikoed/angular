@@ -1,0 +1,32 @@
+<!-- <div class="container">
+    <ul class="alert alert-success">
+        <li *ngFor="let item of car; let i = index; let first = first; let last = last;"[ngClass]='{first:first, last:last}'>{{item}}</li>
+    </ul>
+    <ul class="alert alert-success">
+        <li *ngFor="let item2 of items2">{{item2}}</li>
+    </ul>
+</div> -->
+
+
+
+<div class="list-wrap">
+    <ol class="list-ol">
+        <li *ngFor="let item of services2;" class='list-item'><input type="checkbox" name='name'> {{item.brand}}</li>
+    </ol>
+    <div class="arrows">
+        <a href="#" id="right">
+            <img src="https://img.icons8.com/flat-round/64/000000/arrow-right.png"/>
+        </a>
+        <a href="#" id="revers">
+            <img src="https://img.icons8.com/flat-round/64/000000/arrow-left.png"/>
+            <img src="https://img.icons8.com/flat-round/64/000000/arrow-right.png"/>
+            
+        </a>
+        <a href="#" id="left">
+            <img src="https://img.icons8.com/flat-round/64/000000/arrow-left.png"/>
+        </a> 
+    </div>
+    <ol class="list-ol">
+        <li *ngFor="let item of services3;" class='list-item'><input type="checkbox" name='name2'> {{item.brand}}</li>
+    </ol>
+</div>
